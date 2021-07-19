@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style='float:left;'>Cart</h1>
+    <div style='float:right;' ><bold>Cart items and price</bold>
+        <div>totalitems : <span id= 'itemcount'></span></div>
+        <div>price:<span id='price'></span></div>
+        <input id='code' type="text" placeholder="enter promo"/>
+        <button id='promo'>applypromo</button>
+        <br/>
+        <button id='check' onclick="movetocheckout()">checkout</button>
+    </div>
+    <br/>
+    <br/>
+    <div id='container' style='margin-top: 50px;'></div>
+    
+    
+</body>
+</html>
+<script src='cart.js'></script>

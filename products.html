@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #cont{
+            display:grid;
+            grid-template-columns: repeat(3,20%);
+            grid-gap:3%;
+            margin:3%
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>products catalogue</h1>
+    <button onclick='filterprice()'>filter by price</button>
+    <button onclick='movetocart()'>movetocart</button>
+    <div id='cont'>
+    </div>
+    
+</body>
+</html>
+<script src='products.js'></script>
